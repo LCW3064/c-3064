@@ -13,3 +13,4 @@ means = weather.groupby('month').mean()
 means['평균 풍속(m/s)'].plot(kind = 'bar')
 
 plt.show()
+print('프로그램을 종료합니다.')
