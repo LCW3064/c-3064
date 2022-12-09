@@ -28,3 +28,4 @@ print()
 
 # 7)
 print(n_arr[:2,].reshape(5,-1))
+print('프로그램을 종료합니다.')
