@@ -8,3 +8,4 @@ def factorial(n):
     for i in range(1, n+1):
         result *= i             # reslt = result + i와 같다.
     return result
+print('프로그램을 종료합니다.')
