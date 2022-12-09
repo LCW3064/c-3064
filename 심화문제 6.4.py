@@ -26,3 +26,4 @@ list_data = [int(n1), int(n2), int(n3)]
 
 print("가장 큰 수 : {}".format(max_and_min(list_data,'max')))
 print("가장 작은 수 : {}".format(max_and_min(list_data,'min')))
+print('프로그램을 종료합니다.')
