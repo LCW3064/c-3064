@@ -9,3 +9,4 @@ for i in range(1,n+1):
    fact *= i                   #fact = fact * i 와 동일하다.
 
 print(n, "!은", fact, "이다.") # print("{}!은 {}이다.".format(n,fact))와 동일하다.
+print('프로그램을 종료합니다.')
