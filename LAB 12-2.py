@@ -18,3 +18,4 @@ for i in range(12):
 plt.plot(monthly_wind,'red')
 plt.show()
 
+print('프로그램을 종료합니다.')
