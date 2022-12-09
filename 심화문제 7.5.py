@@ -11,3 +11,4 @@ k = int(len(fruit_list))
 for i in k :
     if len(fruit_list[i]) > mx :
         print('gd')
+print('프로그램을 종료합니다.')
