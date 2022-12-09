@@ -17,3 +17,4 @@ print('z value = :',z)
 bmi = x[1]/x[0]**2
 print('BMI data')
 print(bmi)
+print('프로그램을 종료합니다.')
