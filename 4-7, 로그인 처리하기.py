@@ -17,3 +17,4 @@ else:
 print("상품명:",product)
 print("매출금액:",sum)
 print("이익금",profit)
+print('프로그램을 종료합니다.')
