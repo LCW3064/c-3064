@@ -21,3 +21,4 @@ print("")
 # random.choice()를 이용해 quotes 중에서 무작위 명언 출력
 dailyQuotes = random.choice(quotes)
 print(dailyQuotes)
+print('프로그램을 종료합니다.')
