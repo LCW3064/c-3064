@@ -22,3 +22,4 @@ else :
     print('축하합니다!! 공격에 성공하였습니다.')
 
 print('컴퓨터의 수비위치 :', computer_choice)
+print('프로그램을 종료합니다.')
