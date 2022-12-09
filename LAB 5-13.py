@@ -16,3 +16,4 @@ for b in bread :
             for s in sauces:
                 print("{} + {} + {} + {}".format(b,m,v,s)) # 가게의 모든 샌드위치 종류 출력
                 
+print('프로그램을 종료합니다.')
