@@ -1,29 +1,38 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
-class Person {
-	int id;
-	double weight;
-	string name;
+class Book {
+	string title;
+	int price, pages;
 public:
-	void show() { cout << id << ' ' << weight << ' ' << name << endl; }
-	Person() {
-		this->id = 1;
-		this->weight = 20.5;
-		this->name = "Grace";
+	Book(string title = "", int price = 0, int pages = 0) {
+		this->title = title; this->price = price; this->pages = pages;
 	}
-	Person(int id, string name) { this->id = id; weight = 20.5; this->name = name; }
-	Person(int id, string name, double weight) {
-		this->id = id;
-		this->weight = weight;
-		this->name = name;
+	void show() {
+		cout << title << ' ' << price << "원 " << pages << " 페이지" << endl;
+	}
+	string getTitle() { return title; }
+	bool operator ==(int num) {
+		if (this->price == num) return true;
+		else
+			return false;
+	}
+	bool operator ==(string s) {
+		if (this->title == s) return true;
+		else
+			return false;
+	}
+	bool operator ==(Book op2) {
+		if (this->title == op2.title && this->price == op2.price && this->pages == op2.pages) return true;
+		else
+			return false;
 	}
 };
 
-int main() {
-	Person grace, ashley(2, "Ashley"), helen(3, "Helen", 32.5);
-	grace.show();
-	ashley.show();
-	helen.show();
+
+int main(void) {
+	Book a("명품 C++", 30000, 300), b("고품 C++", 30000, 500);
+	if (a == 30000) cout << "정가 30000원" << endl;
+	if (a == "명품 C++") cout << "명품 C++ 입니다." << endl;
+	if (a == b) cout << "두 책이 같은 책입니다." << endl;
 }
