@@ -23,3 +23,4 @@ fruit_list.remove(a)
 fruit_list.remove(b)
 print("fruit_list = {}".format(fruit_list))
         
+print('프로그램을 종료합니다.')
