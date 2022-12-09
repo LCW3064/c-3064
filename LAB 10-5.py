@@ -17,3 +17,4 @@ print(np_players[np_players[:, 1] >= 80.0])
 print('키가 180 이상인 선수 정보')
 # 키만 검사하기 위해 모든행의 0열만 나오도록 슬라이싱한다.
 print(np_players[np_players[:, 0] >= 180.0])
+print('프로그램을 종료합니다.')
