@@ -8,3 +8,4 @@ f = pd.read_csv('d:/data/weather.csv',index_col=0,encoding = 'CP949')
 
 print(f.head(3))
 print(f.tail(3))
+print('프로그램을 종료합니다.')
