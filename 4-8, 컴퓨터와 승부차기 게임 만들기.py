@@ -23,3 +23,4 @@ else :
 
 print('컴퓨터의 수비위치 :', computer_choice)
 print('프로그램을 종료합니다.')
+print('프로그램을 종료합니다.')
