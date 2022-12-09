@@ -12,3 +12,4 @@ cities = population[0::2]                   # cities에 슬라이싱을 이용�
 print("도시 리스트: {}".format(cities))
 pop = population[1::2]                      # pop에 슬라이싱을 이용해 숫자만 추출
 print("인구의 합: {}".format(sum(pop)))
+print('프로그램을 종료합니다.')
