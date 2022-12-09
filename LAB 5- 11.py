@@ -19,3 +19,4 @@ while guess != answer :                         # guess 와 answer이 같을 경
         print("높음!")
 
 print("축하합니다. 총 시도횟수=", tries)        # 시도 횟수 출력
+print('프로그램을 종료합니다.')
