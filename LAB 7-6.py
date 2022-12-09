@@ -25,3 +25,4 @@ for city in city_info :
 print('최대인구: {}, 인구: {} 천명'.format(max_city[0], max_city[1]))
 print('최소인구: {}, 인구: {} 천명'.format(min_city[0], min_city[1]))
 print('리스트 도시 평균 인구: {} 천명'.format(total_pop / len(city_info)))
+print('프로그램을 종료합니다.')
