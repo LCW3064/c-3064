@@ -24,3 +24,4 @@ for i in range(n_digits):
 
 
 print(otp)
+print('프로그램을 종료합니다.')
