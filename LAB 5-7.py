@@ -9,3 +9,4 @@ i=1
 while i<=9 :
     print("{}*{}={}".format(dan,i,dan*i))
     i += 1                                  # i = i + 1 과 동일하다.
+print('프로그램을 종료합니다.')
