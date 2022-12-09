@@ -16,3 +16,4 @@ for x in s:
 for x in s:
     if x.isupper() == True:
         print(x, end ='')
+print('프로그램을 종료합니다.')
