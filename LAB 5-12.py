@@ -15,3 +15,4 @@ while True :                        # Ctrl+c를 누를 때 프로그램 종료
         print("잘했어요!!")
     else :
         print("정답은 {}입니다. 다음 번에는 잘할 수 있죠?".format(x+y))
+print('프로그램을 종료합니다.')
