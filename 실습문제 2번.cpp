@@ -1,20 +1,11 @@
-#include <iostream>
-#include <string>
+#include<iostream>
 using namespace std;
-
+void combine(string& a, string& b, string& c) {
+	c = a + " " + b;
+}
 int main() {
-
-	cout << "문자열 입력>> ";
-	string str;
-	getline(cin, str, '\n');
-	
-	int n = 0;
-	int len = str.length();
-
-	for (int i = 0; i < len; i++) {
-		if (str.at(i) == 'a')
-			n++;
-	}
-
-	cout << "문자 a는 " << n << "개 있습니다.";
+	string text1("I love you"), text2("very much");
+	string text3; // 비어있는 문자열 
+	combine(text1, text2, text3); // text1과 " ", 그리고 text2를 덧붙여 text3 만들기 
+	cout << text3 << endl; // "I love you very much" 출력
 }
