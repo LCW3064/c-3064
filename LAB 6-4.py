@@ -22,3 +22,4 @@ n1, n2, n3 = input("3 수를 입력하시오 : ").split()
 list_data = [int(n1), int(n2), int(n3)]
 
 max_and_min(list_data)
+print('프로그램을 종료합니다.')
