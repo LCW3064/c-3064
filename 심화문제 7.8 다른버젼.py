@@ -11,3 +11,4 @@ for a in bae :
     for b in a :
         print('{:3d}'.format(b), end='')
     print("\n")
+print('프로그램을 종료합니다.')
