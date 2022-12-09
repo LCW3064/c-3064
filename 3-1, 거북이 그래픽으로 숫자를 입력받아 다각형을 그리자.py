@@ -12,3 +12,4 @@ for i in range(n) : # n번만큼 아래 두 문장을 반복한다.
     t.left(360 // n) # n각형의 각도만큼 왼쪽으로 이동한다.
 
 turtle.done()
+print('프로그램을 종료합니다.')
