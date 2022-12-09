@@ -13,3 +13,4 @@ for i in range(len(a)):
     
 print(','.join(new_str1).replace(',',''))
 print(','.join(new_str2).replace(',',''))
+print('프로그램을 종료합니다.')
