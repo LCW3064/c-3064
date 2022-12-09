@@ -7,3 +7,4 @@ s = 'Korea is awesome! I REALLY LOVE KOREA'
 
 print(s.count('Korea')+s.count('korea')+s.count('KOREA'))
 
+print('프로그램을 종료합니다.')
