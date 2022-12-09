@@ -21,3 +21,4 @@ for ch in src :
         print(cipher(ch), end = '')
     else:
         print(ch, end = '')
+print('프로그램을 종료합니다.')
