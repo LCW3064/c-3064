@@ -14,3 +14,4 @@ def calCircle(r):
 radius = float(input("원의 반지름을 입력하시오: "))
 (a, c) = calCircle(radius)
 print('원의 넓이는 {}이고 원의 둘레는 {}이다.'.format(str(a),str(c)))
+print('프로그램을 종료합니다.')
