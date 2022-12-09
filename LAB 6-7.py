@@ -15,3 +15,4 @@ def fibonacci(n):
 
 i = int(input("몇 번째 항: "))
 print(fibonacci(i))
+print('프로그램을 종료합니다.')
