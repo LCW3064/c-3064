@@ -22,3 +22,4 @@ print('체중 중앙값:', np.median(weights))
 ages = players[:, 2]
 print('나이 평균값:', np.mean(ages))
 print('나이 중앙값:', np.median(ages))
+print('프로그램을 종료합니다.')
