@@ -11,3 +11,4 @@ while answer == 'yes':
     answer = input('계속?(yes/no): ')           # no할 경우 반복문 종료
 
 print('합계는 : ', total)
+print('프로그램을 종료합니다.')
