@@ -20,5 +20,5 @@ for p in range(n):
     for q in range(n):
         print("{:2d}".format(a[p][q]),end=" ")
     print("")
-
-            
+print('프로그램을 종료합니다.')
+          
