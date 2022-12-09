@@ -8,3 +8,4 @@ password = ""
 while password != "pythonisfun": 
     password = input("암호를 입력하시오: ")
 print("** 로그인 성공 **")
+print('프로그램을 종료합니다.')
