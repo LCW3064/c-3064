@@ -17,3 +17,4 @@ print(len(k))
 
 for i in k :
     print(i)
+print('프로그램을 종료합니다.')
