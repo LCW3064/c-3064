@@ -8,3 +8,4 @@ if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0 : # 윤년의 조건
 
 else :
     print(year, "년은 윤년이 아닙니다.")
+print('프로그램을 종료합니다.')
