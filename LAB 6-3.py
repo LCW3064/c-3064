@@ -13,3 +13,4 @@ def weeklyPay(rate, hour) :
 r = int(input("시급을 입력하시오 : "))               # 시급 입력받기
 h = int(input("근무 시간을 입력하시오: "))           # 근무시간 입력받기
 print("주급은 " + str(weeklyPay(r,h)))
+print('프로그램을 종료합니다.')
